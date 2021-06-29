@@ -7,12 +7,14 @@ public class First extends TestBase {
 
     @Test
     public void firstTest(){
-        driver.get(SITE_URL);
+        main    .goTo()
+                .chooseTask("1");
+        taskOne.checkPageIsCorrect();
 
     }
 
-    @Test
-    public void secondTest(){
-        driver.get(SITE_URL);
-    }
+//    @Test
+//    public void secondTest(){
+//        driver.get(SITE_URL);
+//    }
 }
