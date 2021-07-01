@@ -12,7 +12,7 @@ import page.TaskOne;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
-    WebDriver driver;
+    public WebDriver driver;
     public Main main;
     public TaskOne taskOne;
 
