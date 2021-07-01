@@ -12,9 +12,4 @@ public class First extends TestBase {
         taskOne.checkPageIsCorrect();
 
     }
-
-//    @Test
-//    public void secondTest(){
-//        driver.get(SITE_URL);
-//    }
 }
