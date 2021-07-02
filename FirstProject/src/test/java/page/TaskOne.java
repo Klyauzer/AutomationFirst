@@ -11,4 +11,5 @@ public class TaskOne extends BasePage {
     public void checkPageIsCorrect(){
         isElementDisplayed(By.xpath("//li[text()='Zadanie 1']"));
     }
+
 }

@@ -2,6 +2,7 @@ package page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -31,5 +32,13 @@ public class BasePage {
     public void isElementDisplayed (By elementBy) {
         waitVisability(elementBy);
         assertTrue(driver.findElement(elementBy).isDisplayed());
+    }
+
+    //Write Text in field located By
+    public void writeText(By elementBy, String text){
+        waitVisability(elementBy);
+        WebElement element = driver.findElement(elementBy);
+        element.clear();
+        element.sendKeys(text);
     }
 }
