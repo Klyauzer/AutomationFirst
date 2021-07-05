@@ -8,7 +8,6 @@ public class TestSix extends TestBase {
     public void firstTest() throws InterruptedException {
         main.goTo()
                 .chooseTask("6");
-//        taskOne.checkPageIsCorrect();
         taskSix.fillInLogin("tester")
                 .fillInPassword("123-xyz")
                 .loginButtonClick()
