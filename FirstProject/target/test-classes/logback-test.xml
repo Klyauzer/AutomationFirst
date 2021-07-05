@@ -7,6 +7,6 @@
     </appender>
 
     <root> level="INFO"
-    <appender-ref rerf="STDOUT"/>
+    <appender-ref ref="STDOUT"/>
     </root>>
 </configuration>
