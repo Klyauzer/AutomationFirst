@@ -22,7 +22,7 @@ public class TaskSix extends BasePage {
     }
 
     public TaskSix loginButtonClick(){
-        click(By.cssSelector(".btn-default.btn"));
+        click(By.xpath("//button[text()='Login']"));
         return this;
     }
 

@@ -22,8 +22,8 @@ public class TestBase {
 
     @BeforeEach
     public void start(){
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        WebDriverManager.firefoxdriver().setup();
+        driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         main = PageFactory.initElements(driver, Main.class);
