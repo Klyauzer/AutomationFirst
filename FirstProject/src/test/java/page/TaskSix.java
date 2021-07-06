@@ -5,10 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
-
 import static java.lang.Thread.sleep;
 import static org.junit.Assert.assertFalse;
-
 public class TaskSix extends BasePage {
     public TaskSix(WebDriver driver) {
         super(driver);
