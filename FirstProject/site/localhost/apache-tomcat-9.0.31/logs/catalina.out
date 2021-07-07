@@ -545,58 +545,100 @@
 28-Feb-2020 08:49:02.381 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/siarhei/Projects/bugofnet/kakugodno/site/localhost/apache-tomcat-9.0.31/webapps/ROOT] has finished in [209] ms
 28-Feb-2020 08:49:02.383 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 28-Feb-2020 08:49:02.388 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [245] milliseconds
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
-Error: Could not find or load main class org.apache.catalina.startup.Bootstrap
-Caused by: java.lang.ClassNotFoundException: org.apache.catalina.startup.Bootstrap
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
-Error: Could not find or load main class org.apache.catalina.startup.Bootstrap
-Caused by: java.lang.ClassNotFoundException: org.apache.catalina.startup.Bootstrap
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
-Error: Could not find or load main class org.apache.catalina.startup.Bootstrap
-Caused by: java.lang.ClassNotFoundException: org.apache.catalina.startup.Bootstrap
 NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
-06-Jul-2021 17:05:14.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.50
-06-Jul-2021 17:05:14.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 28 2021 08:46:44 UTC
-06-Jul-2021 17:05:14.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.50.0
-06-Jul-2021 17:05:14.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
-06-Jul-2021 17:05:14.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
-06-Jul-2021 17:05:14.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
-06-Jul-2021 17:05:14.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-16.0.1
-06-Jul-2021 17:05:14.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16.0.1+9-24
-06-Jul-2021 17:05:14.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
-06-Jul-2021 17:05:14.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31
-06-Jul-2021 17:05:14.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31
-06-Jul-2021 17:05:14.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
-06-Jul-2021 17:05:14.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
-06-Jul-2021 17:05:14.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
-06-Jul-2021 17:05:14.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:/Users/Sergey Kiyauzer/GitHub/AutomationFirst/FirstProject/site/localhost/apache-tomcat-9.0.31/conf/logging.properties
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:/Users/Sergey Kiyauzer/GitHub/AutomationFirst/FirstProject/site/localhost/apache-tomcat-9.0.31
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:/Users/Sergey Kiyauzer/GitHub/AutomationFirst/FirstProject/site/localhost/apache-tomcat-9.0.31
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:/Users/Sergey Kiyauzer/GitHub/AutomationFirst/FirstProject/site/localhost/apache-tomcat-9.0.31/temp
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-06-Jul-2021 17:05:14.190 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
-06-Jul-2021 17:05:16.130 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
-06-Jul-2021 17:05:16.224 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2846] milliseconds
-06-Jul-2021 17:05:16.380 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
-06-Jul-2021 17:05:16.380 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.50]
-06-Jul-2021 17:05:16.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\docs]
-06-Jul-2021 17:05:17.236 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\docs] has finished in [799] ms
-06-Jul-2021 17:05:17.239 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\examples]
-06-Jul-2021 17:05:18.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\examples] has finished in [1,253] ms
-06-Jul-2021 17:05:18.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\host-manager]
-06-Jul-2021 17:05:18.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\host-manager] has finished in [102] ms
-06-Jul-2021 17:05:18.595 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\manager]
-06-Jul-2021 17:05:18.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\manager] has finished in [89] ms
-06-Jul-2021 17:05:18.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\ROOT]
-06-Jul-2021 17:05:18.747 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\ROOT] has finished in [63] ms
-06-Jul-2021 17:05:18.747 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
-06-Jul-2021 17:05:19.266 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3045] milliseconds
+07-Jul-2021 12:14:15.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.50
+07-Jul-2021 12:14:15.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 28 2021 08:46:44 UTC
+07-Jul-2021 12:14:15.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.50.0
+07-Jul-2021 12:14:15.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Jul-2021 12:14:15.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Jul-2021 12:14:15.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jul-2021 12:14:15.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-16.0.1
+07-Jul-2021 12:14:15.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16.0.1+9-24
+07-Jul-2021 12:14:15.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jul-2021 12:14:15.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Sergey Kiyauzer\GitHub\site\localhost\apache-tomcat-9.0.31
+07-Jul-2021 12:14:15.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Sergey Kiyauzer\GitHub\site\localhost\apache-tomcat-9.0.31
+07-Jul-2021 12:14:15.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jul-2021 12:14:15.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jul-2021 12:14:15.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Jul-2021 12:14:15.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Jul-2021 12:14:15.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jul-2021 12:14:15.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:/Users/Sergey Kiyauzer/GitHub/site/localhost/apache-tomcat-9.0.31/conf/logging.properties
+07-Jul-2021 12:14:15.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jul-2021 12:14:15.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jul-2021 12:14:15.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jul-2021 12:14:15.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Jul-2021 12:14:15.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jul-2021 12:14:15.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:/Users/Sergey Kiyauzer/GitHub/site/localhost/apache-tomcat-9.0.31
+07-Jul-2021 12:14:15.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:/Users/Sergey Kiyauzer/GitHub/site/localhost/apache-tomcat-9.0.31
+07-Jul-2021 12:14:15.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:/Users/Sergey Kiyauzer/GitHub/site/localhost/apache-tomcat-9.0.31/temp
+07-Jul-2021 12:14:15.353 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+07-Jul-2021 12:14:15.353 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Jul-2021 12:14:15.353 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Jul-2021 12:14:15.358 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+07-Jul-2021 12:14:15.708 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jul-2021 12:14:15.755 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [939] milliseconds
+07-Jul-2021 12:14:15.818 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jul-2021 12:14:15.818 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.50]
+07-Jul-2021 12:14:15.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\site\localhost\apache-tomcat-9.0.31\webapps\docs]
+07-Jul-2021 12:14:16.180 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\site\localhost\apache-tomcat-9.0.31\webapps\docs] has finished in [347] ms
+07-Jul-2021 12:14:16.180 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\site\localhost\apache-tomcat-9.0.31\webapps\examples]
+07-Jul-2021 12:14:16.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\site\localhost\apache-tomcat-9.0.31\webapps\examples] has finished in [470] ms
+07-Jul-2021 12:14:16.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\site\localhost\apache-tomcat-9.0.31\webapps\host-manager]
+07-Jul-2021 12:14:16.728 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\site\localhost\apache-tomcat-9.0.31\webapps\host-manager] has finished in [78] ms
+07-Jul-2021 12:14:16.728 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\site\localhost\apache-tomcat-9.0.31\webapps\manager]
+07-Jul-2021 12:14:16.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\site\localhost\apache-tomcat-9.0.31\webapps\manager] has finished in [31] ms
+07-Jul-2021 12:14:16.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\site\localhost\apache-tomcat-9.0.31\webapps\ROOT]
+07-Jul-2021 12:14:16.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\site\localhost\apache-tomcat-9.0.31\webapps\ROOT] has finished in [47] ms
+07-Jul-2021 12:14:16.813 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Jul-2021 12:14:16.891 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1138] milliseconds
+07-Jul-2021 12:20:31.383 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Jul-2021 12:20:31.383 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jul-2021 12:20:31.400 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jul-2021 12:20:31.416 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jul-2021 12:20:31.450 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jul-2021 12:33:16.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.50
+07-Jul-2021 12:33:16.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 28 2021 08:46:44 UTC
+07-Jul-2021 12:33:16.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.50.0
+07-Jul-2021 12:33:16.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Jul-2021 12:33:16.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Jul-2021 12:33:16.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jul-2021 12:33:16.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-16.0.1
+07-Jul-2021 12:33:16.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16.0.1+9-24
+07-Jul-2021 12:33:16.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jul-2021 12:33:16.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31
+07-Jul-2021 12:33:16.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:/Users/Sergey Kiyauzer/GitHub/AutomationFirst/AutomationFirst/FirstProject/site/localhost/apache-tomcat-9.0.31/conf/logging.properties
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:/Users/Sergey Kiyauzer/GitHub/AutomationFirst/AutomationFirst/FirstProject/site/localhost/apache-tomcat-9.0.31
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:/Users/Sergey Kiyauzer/GitHub/AutomationFirst/AutomationFirst/FirstProject/site/localhost/apache-tomcat-9.0.31
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:/Users/Sergey Kiyauzer/GitHub/AutomationFirst/AutomationFirst/FirstProject/site/localhost/apache-tomcat-9.0.31/temp
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Jul-2021 12:33:16.074 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+07-Jul-2021 12:33:16.562 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jul-2021 12:33:16.578 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [867] milliseconds
+07-Jul-2021 12:33:16.656 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jul-2021 12:33:16.656 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.50]
+07-Jul-2021 12:33:16.672 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\docs]
+07-Jul-2021 12:33:17.111 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\docs] has finished in [439] ms
+07-Jul-2021 12:33:17.111 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\examples]
+07-Jul-2021 12:33:18.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\examples] has finished in [1,158] ms
+07-Jul-2021 12:33:18.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\host-manager]
+07-Jul-2021 12:33:18.347 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\host-manager] has finished in [78] ms
+07-Jul-2021 12:33:18.347 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\manager]
+07-Jul-2021 12:33:18.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\manager] has finished in [94] ms
+07-Jul-2021 12:33:18.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\ROOT]
+07-Jul-2021 12:33:18.503 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sergey Kiyauzer\GitHub\AutomationFirst\AutomationFirst\FirstProject\site\localhost\apache-tomcat-9.0.31\webapps\ROOT] has finished in [62] ms
+07-Jul-2021 12:33:18.503 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Jul-2021 12:33:18.614 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2030] milliseconds

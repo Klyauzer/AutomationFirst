@@ -1,0 +1,6 @@
+steps\StepsDefinition.class
+steps\RunTest.class
+page\BasePage.class
+page\Main.class
+page\User.class
+steps\TestBase.class
